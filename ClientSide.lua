@@ -17,7 +17,7 @@ local function a(b)
 	return c
 end
 
-local e = game:GetService("ReplicatedStorage")
+local e = game.ReplicatedStorage:WaitForChild("ExHydra").ADFolder
 local f = e:WaitForChild("CheckChildExists")
 
 local g = {
